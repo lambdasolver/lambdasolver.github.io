@@ -1,0 +1,54 @@
+#tophead {
+  color: var(--darkreader-text--color-text-strong);
+}
+#heading {
+  font-family: "Comic Sans MS";
+  font-size: 70px;
+}
+
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000023;
+}
+#menu li {
+  float: right;
+}
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+#menu li a:hover {
+  background-color: blue;
+}
+#intro {
+  display: grid;
+  align-items: center; 
+  grid-template-columns: 1fr 2fr 1fr;
+  column-gap: 5px;
+  place-items: center;
+}
+
+#intro img {
+  width:300px;
+  border-radius: 50%;
+}
+a {
+  color: #add8e6;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+:root {
+  --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+
+}
