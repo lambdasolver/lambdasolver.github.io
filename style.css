@@ -1,4 +1,6 @@
-
+body {
+  background-color: #D1E5F4;
+}
 #tophead {
   color: var(--darkreader-text--color-text-strong);
 }
@@ -39,15 +41,23 @@
   width:300px;
   border-radius: 50%;
 }
+#intro div {
+  font-size: large;
+}
+
 a {
-  color: #add8e6;
+  color: #0006b1;
 }
 a:visited {
-  color: pink;
+  color: #fb3030;
   background-color: transparent;
   text-decoration: none;
 }
-
+.inactiveLink {
+  pointer-events: none;
+  cursor: default;
+}
+p {padding-left: 30px;}
 
 :root {
   --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
