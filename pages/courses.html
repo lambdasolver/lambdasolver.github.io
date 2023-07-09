@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Soham Chatterjee</title>
-        <link rel="stylesheet" href="../style.css" />
-    </head>
 
-<body style="background-color: #00001c; color: white;">
-    <h1>Soham Chatterjee</h1>
+<head>
+    <meta charset="UTF-8">
+    <title>Soham Chatterjee</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+    <h2 id="tophead">Soham Chatterjee</h2>
     <nav>
-        <ul id="menu"> 
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="hobbies.html">Hobbies</a></li>
-            <li><a href="books.html">Resources</a></li>
-            <li><a href="courses.html">Course Work</a></li>
-            <li><a href="../index.html">Home</a></li>
-        </ul> 
+        <div class="navbar">
+            <a href="contact.html">Contact Me</a>
+            <div class="dropdown">
+                <a href="books.html">Resources</a>
+                <button class="dropbtn">Hobbies &#9660
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="music.html">Music Library</a>
+                    <a href="anime.html">Anime</a>
+                    <a href="linux.html">Linux Theming</a>
+                </div>
+            </div>
+            <a href="courses.html">Course Work</a>
+            <a href="../index.html">Home</a>
+        </div>
     </nav>
-    <br/>
-
-
-
-
-</body>
-</html>

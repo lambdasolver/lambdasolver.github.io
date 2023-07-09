@@ -10,13 +10,22 @@
 <body>
     <h2 id="tophead">Soham Chatterjee</h2>
     <nav>
-        <ul id="menu">
-            <li><a href="pages/contact.html">Contact</a></li>
-            <li><a href="pages/hobbies.html">Hobbies</a></li>
-            <li><a href="pages/books.html">Resources</a></li>
-            <li><a href="pages/courses.html">Course Work</a></li>
-            <li><a href="index.html">Home</a></li>
-        </ul>
+        <div class="navbar">
+            <a href="pages/contact.html">Contact Me</a>
+            <div class="dropdown">
+                <a href="pages/books.html">Resources</a>
+                <button class="dropbtn">Hobbies &#9660
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="pages/music.html">Music Library</a>
+                    <a href="pages/anime.html">Anime</a>
+                    <a href="pages/anime.html">Linux Theming</a>
+                </div>
+            </div>
+            <a href="pages/courses.html">Course Work</a>
+            <a href="index.html">Home</a>
+        </div>
     </nav>
     <br />
 
