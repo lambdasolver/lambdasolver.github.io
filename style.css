@@ -127,6 +127,6 @@ a:visited {
   display: block;
 }
 
-h2 {
+h1, h2 {
   font-family: "Time New Roman", fantasy;
 }
