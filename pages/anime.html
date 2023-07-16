@@ -5,9 +5,42 @@
     <meta charset="UTF-8">
     <title>Soham Chatterjee</title>
     <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="anime.css" />
+    <style>
+        .anime-char img {
+            width:          300px;
+            height:         300px;
+            float:          right;
+            margin:         20px;
+            border-radius:  50%;
+        }
+    </style>
 </head>
 
 <body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
     <h2 id="tophead"><a href="../index.html" style="color:black; text-decoration: none;">Soham Chatterjee</a></h2>
     <nav>
         <div class="navbar">
@@ -20,12 +53,22 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="music.html">Music Library</a>
-                    <a href="anime.html">Anime</a>
                     <a href="linux.html">Linux Theming</a>
                 </div>
             </div>
             <a href="courses.html">Course Work</a>
             <a href="../index.html">Home</a>
+            <div class="toc-dropdown" >
+                <button class="toc-dropbtn">&#8801
+                    <i class="toc-fa fa-caret-down"></i>
+                </button>
+                <div class="toc-dropdown-content">
+                    <a href="#anime-char">My Favourite Anime Character</a>
+                    <a href="#anime-series">My Top 5 Anime Series</a>
+                    <a href="#anime-movies">My Top 5 Anime Movies</a>
+                    <a href="#anime-other">Some Other Recommended Aimes</a>
+                </div>
+            </div>
         </div>
     </nav>
     <div>
@@ -53,21 +96,38 @@
             didn't place in the top 5, but that I still think are excellent.
         </p>
     </div>
-    <h2>My Favourite Character</h2>
-    <p>
-        My favourite anime character overall is Light Yagami from Death Note.
-    </p>
-    <p>
-        Hear me out before you start to criticise me. First of all, if you have watched Death Note, you should be aware
-        that I only take the Death Note up until L's death into consideration. After that it becomes bogus and it feels
-        like Near is using GTA cheatcodes. Additionally, upon L's passing, Light develops a maniacal sense of
-        self-worth. He wasn't the smart, perceptive youngster he was when L was alive.
-    </p>
-    <p>
-        Here's why I like Light. He is really brilliant, to start. From Isagi Yoichi from Blue Lock, Shikamaru from
-        Naruto, Senku from Dr. Stone, to Ayanokoji from Classroom of the Elite, I enjoy all intellectual anime
-        characters.
-    </p>
+    <h2>My Favourite Anime Character</h2>
+
+    <div class="anime-char">
+
+        <div class="anime-char-img">
+            <img src="../images/light-yagami.jpg" alt="Light Yagami"/>
+        </div>
+    </div>
+        <div class="anime-char-des">
+            <p>
+                My favourite anime character overall is Light Yagami from Death Note. Also to be precise I like the character Light Yagami portraited in the english dub version of Death Note
+            </p>
+            <p>
+                Hear me out before you start to criticise me. First of all, if you have watched Death Note, you should be aware
+                that I only take the Death Note up until L's death into consideration. After that it becomes bogus and it feels
+                like Near is using GTA cheatcodes. Additionally, upon L's passing, Light develops a maniacal sense of
+                self-worth. He wasn't the smart, perceptive youngster he was when L was alive.
+            </p>
+            <p>
+                Here's why I like Light: 
+                <ul>
+                    <li>He is really brilliant, to start. From Isagi Yoichi from Blue Lock, Shikamaru from Naruto, Senku from Dr. Stone, to Ayanokoji from Classroom of the Elite, I enjoy all intellectual anime characters. He is also not a prodigy talent, in contrast to all the other prodigy personalities. He is intelligent with his hardworking. And respect those individuals who, while having little natural skill, have worked incredibly hard to become experts in their subjects. I like Light in part because of this. And this motivates me very much. Since i am always surrounded by very intelligent people in my academic life, this characterist of Light Yagami makes me stay motivated towards my goal of being a Computer Scientist.</li>
+                    <li>The second point is highly particular to the dub version. The voice actor did such an amazing job, the way he behaved and speech constantly give the image of someone highly intelligent. You probably already know that when you speak to certain really bright people, their behaviour radiates intelligence, instantly elevating him to a position of great respect. Actually, given his age and character description, I believe the English voice fits him well. He demonstrates his intelligence by the way he thinks and interacts with others. </li>
+                    <li>You might now despise me. But I kind of concur with his ideology, the way in which he began doing everything. But once more, 'I kind of agree'</li>
+                    <li>And i am aware that many people would accuse him of killing innocent bystanders and manipulating Misa's emotions. However, you already know that what Light is doing is illegal. Then, what is the best approach to dispel the suspicion that someone is watching him to find out if he is the murderer or not? It is to show them that assassination still occurs even when he does nothing. Light is currently limited to acting alone. Ryuk is only an observer, thus he cannot ask him to do it. Therefore, it stands to reason that any criminal who makes the news must be killed, even if they do not pose a serious threat to society.
+                        <p>And coming to the Misa's emotion. Dude, Light is engaging in very illegal activities. If he is apprehended, his family will also experience a life suffering in addition to him receiving a death sentence. In that circumstances, every action should be carefully considered and calculated. Misa then arrives with her whining about why Light hasn't called him or does he loves her. He had to manipulate such an unstable girl. Even because Misa L's suspicion on Light increased from 7% to more than 50%. As Samuel Jackson said in the movie Pulp Fiction <a href="https://www.youtube.com/watch?v=aTLXGF0hS7M" target="_blank">"Bitch, be cool"</a> 😁. And as you can see, even after Rem passed away, Light could have easily killed Misa and broken his word to Rem, but he chose not to and always made plans that would prevent Misa from being implicated. I don't give a damn if he misled Misa or not. Misa is just a pain in the ass for me.</p>  </li>
+                </ul>
+            </p>
+            <p>
+                That's all the reason why I like this character.  And after all this is my personal choice which character I like. So that's it
+            </p>
+        </div>
 
 
 
