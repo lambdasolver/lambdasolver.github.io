@@ -3,6 +3,8 @@ body {
   font-family: var(--font-serif);
 }
 
+
+
 .navbar {
   overflow: hidden;
   background-color: #333;
@@ -112,7 +114,6 @@ a:visited {
   pointer-events: none;
   cursor: default;
 }
-p {padding-left: 30px;}
 
 :root {
   --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
