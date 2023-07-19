@@ -10,8 +10,10 @@ body {
 
 
 
-#tophead {
+.tophead {
   color: var(--darkreader-text--color-text-strong);
+  font-family: 'Lugrasimo', cursive;
+  margin-left: 10px;
 }
 #heading {
   font-family: "Comic Sans MS";
