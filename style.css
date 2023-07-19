@@ -5,20 +5,16 @@ body {
   font-family: var(--font-serif);
   color: #333333;
 }
-
-
-
-
-
-.tophead {
-  color: var(--darkreader-text--color-text-strong);
-  font-family: 'Lugrasimo', cursive;
-  margin-left: 10px;
+p {
+  text-indent: 2rem;
 }
+
+
 #heading {
   font-family: "Comic Sans MS";
   font-size: 70px;
 }
+
 
 
 #intro {
@@ -38,10 +34,10 @@ body {
 }
 
 a {
-  color: #0006b1;
+  color: #3238d4;
 }
 a:visited {
-  color: #fb3030;
+  color: #ca2323;
   background-color: transparent;
   text-decoration: none;
 }
@@ -132,4 +128,27 @@ a:visited {
 
 h1, h2 {
   font-family: "Time New Roman", fantasy;
+}
+
+.card {
+  margin-bottom: 3rem;
+  width: 90%;
+  margin: 5%;  
+  position: relative;
+}
+
+.card-background {
+  background-color: #A9D3FF;
+  border-radius: 15px;
+  position: absolute;
+  width: 100%;
+  inset: 0;
+}
+.card-content {
+  position: relative;
+  padding: 20px;
+}
+.tophead {
+  font-family: 'Lugrasimo', cursive;
+  margin-left: 10px;
 }
