@@ -130,9 +130,10 @@ a:visited {
 
 .card {
   margin-bottom: 3rem;
-  width: 90%;
-  margin: 5%;  
+  width: 80%;
+  margin: 10%;  
   position: relative;
+  margin-top: 0px;
 }
 
 .card-background {
@@ -145,6 +146,8 @@ a:visited {
 .card-content {
   position: relative;
   padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .tophead {
   font-family: 'Lugrasimo', cursive;
