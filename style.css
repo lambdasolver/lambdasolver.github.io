@@ -4,9 +4,10 @@ html {
 body {
   font-family: var(--font-serif);
   color: #333333;
+  font-size: 18px;
 }
 p {
-  text-indent: 2rem;
+  line-height: 1.5rem;
 }
 
 
@@ -126,9 +127,6 @@ a:visited {
   display: block;
 }
 
-h1, h2 {
-  font-family: "Time New Roman", fantasy;
-}
 
 .card {
   margin-bottom: 3rem;
@@ -151,4 +149,7 @@ h1, h2 {
 .tophead {
   font-family: 'Lugrasimo', cursive;
   margin-left: 10px;
+}
+h2, h3{
+  font-family: 'Noto Serif', serif;
 }
