@@ -10,7 +10,9 @@ body {
 p {
   line-height: 1.5rem;
 }
-
+table {
+  table-layout: fixed;
+}
 
 #heading {
   font-family: "Comic Sans MS";
